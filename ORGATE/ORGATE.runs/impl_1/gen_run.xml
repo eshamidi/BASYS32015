@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1445281448">
+  <File Type="OPT-DCP" Name="orgateimp_opt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="PWROPT-DCP" Name="orgateimp_pwropt.dcp"/>
+  <File Type="ROUTE-DCP" Name="orgateimp_routed.dcp"/>
+  <File Type="PA-TCL" Name="orgateimp.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="orgateimp_drc_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="orgateimp_drc_pwropted.rpt"/>
+  <File Type="OPT-HWDEF" Name="orgateimp.hwdef"/>
+  <File Type="PLACE-DCP" Name="orgateimp_placed.dcp"/>
+  <File Type="PLACE-IO" Name="orgateimp_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="orgateimp_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="orgateimp_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="orgateimp_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="orgateimp_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="orgateimp_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="orgateimp_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="orgateimp_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="orgateimp_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="orgateimp.vdi"/>
+  <File Type="PHYSOPT-DRC" Name="orgateimp_drc_physopted.rpt"/>
+  <File Type="ROUTE-DRC" Name="orgateimp_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="orgateimp_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="orgateimp_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="orgateimp_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="orgateimp_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="orgateimp_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="orgateimp_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="orgateimp_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="orgateimp_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="orgateimp_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="orgateimp_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="orgateimp_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="orgateimp_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="orgateimp_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="orgateimp_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="orgateimp.bit"/>
+  <File Type="BG-BIN" Name="orgateimp.bin"/>
+  <File Type="BITSTR-MSK" Name="orgateimp.msk"/>
+  <File Type="BITSTR-RBT" Name="orgateimp.rbt"/>
+  <File Type="BITSTR-NKY" Name="orgateimp.nky"/>
+  <File Type="BITSTR-BMM" Name="orgateimp_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="orgateimp.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="orgateimp.sysdef"/>
+  <File Type="BG-BGN" Name="orgateimp.bgn"/>
+  <File Type="BG-DRC" Name="orgateimp.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/orgate.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/orgateimp.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="orgateimp"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constrs.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

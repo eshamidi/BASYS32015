@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Mon Oct 19 11:35:26 2015
+# Process ID: 856
+# Log file: C:/Users/egh35/Downloads/ECEC302/ECEC302/viisegmentii/vivado.log
+# Journal file: C:/Users/egh35/Downloads/ECEC302/ECEC302/viisegmentii\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\egh35\Downloads\ECEC302\ECEC302\viisegmentii\viisegmentii.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/egh35/Documents/ECEC302/viisegmentii' since last save.
+Scanning sources...
+Finished scanning sources
+ERROR: unknown error occurred
+open_project C:/Users/egh35/Downloads/ECEC302/ECEC302/viisegmentii/viisegmentii.xpr
+ERROR: [Coretcl 2-101] Project 'C:/Users/egh35/Downloads/ECEC302/ECEC302/viisegmentii/viisegmentii.xpr' is already open.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 19 11:36:02 2015...

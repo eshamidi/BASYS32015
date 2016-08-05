@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Mon Oct 05 16:26:17 2015
+# Process ID: 10160
+# Log file: C:/Users/egh35/Documents/ECEC302/cascade_reg_3/cascade_reg_3.runs/impl_1/cascade_reg_3.vdi
+# Journal file: C:/Users/egh35/Documents/ECEC302/cascade_reg_3/cascade_reg_3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source cascade_reg_3.tcl -notrace

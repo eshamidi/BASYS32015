@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_10.4c/examples
+T_opt
+!s110 1445366454
+VjjmhQ6?2P0DzeoIMzcfZK2
+04 10 5 work serial_add behav 1
+=1-90b11c87ca80-56268ab5-2a4-24d0
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.4c;61
+R0
+Eserial_add
+Z1 w1445366398
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dE:/modelsimtut
+Z5 8E:\modelsimtut\serial_add.vhd
+Z6 FE:\modelsimtut\serial_add.vhd
+l0
+L3
+V?B441liaPK?3Yllm5:k231
+!s100 9ckV]R]gOzb>Y_<bHhM`P3
+Z7 OL;C;10.4c;61
+32
+Z8 !s110 1445367266
+!i10b 1
+Z9 !s108 1445367266.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|E:\modelsimtut\serial_add.vhd|
+Z11 !s107 E:\modelsimtut\serial_add.vhd|
+!i113 0
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1
+Abehav
+R2
+R3
+Z14 DEx4 work 10 serial_add 0 22 ?B441liaPK?3Yllm5:k231
+l17
+L13
+Z15 V@cWcUBc`_XK[MBio?j?901
+Z16 !s100 0]<1_DdRo^h;?1CM:2XaF1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13

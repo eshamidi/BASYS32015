@@ -1,0 +1,9 @@
+E:/modelsimtut/serial_add.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {E:\modelsimtut\serial_add.vhd}
+Model Technology ModelSim SE-64 vcom 10.4c Compiler 2015.07 Jul 20 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity serial_add
+-- Compiling architecture behav of serial_add
+
+} {} {}}

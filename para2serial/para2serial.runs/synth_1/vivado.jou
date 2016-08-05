@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Oct 21 16:07:57 2015
+# Process ID: 4516
+# Log file: E:/ECEC302/Projects/para2serial/para2serial.runs/synth_1/p2s.vds
+# Journal file: E:/ECEC302/Projects/para2serial/para2serial.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source p2s.tcl -notrace

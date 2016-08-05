@@ -1,0 +1,256 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_10.4c/examples
+T_opt
+!s110 1446495279
+V_ETm[_b38FU`[G>cKL?_I3
+04 12 3 work serial_adder beh 1
+=1-90b11c87ca80-5637c42f-d9-1c64
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.4c;61
+R0
+T_opt1
+!s110 1446065595
+V>X9:Ljomhe?jIHK2?0hMW1
+04 5 5 work adder struc 1
+=1-90b11c87ca80-563135bb-2bb-1f68
+R1
+n@_opt1
+R2
+R0
+Eadder
+Z3 w1446065578
+Z4 DPx4 work 7 p1_pack 0 22 9fgTZ4D`:<^eMoS2=FjE:0
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 dE:/ECEC302/Projects/modelsim adder
+Z8 8E:/ECEC302/Projects/modelsim adder/adder.vhd
+Z9 FE:/ECEC302/Projects/modelsim adder/adder.vhd
+l0
+L6
+V6;5`gP1THb37_dSh_MEJV3
+!s100 BmAcYX;[9gg@JofB7bd4O2
+Z10 OL;C;10.4c;61
+32
+Z11 !s110 1446495169
+!i10b 1
+Z12 !s108 1446495169.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|E:/ECEC302/Projects/modelsim adder/adder.vhd|
+Z14 !s107 E:/ECEC302/Projects/modelsim adder/adder.vhd|
+!i113 0
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1
+Astruc
+R4
+R5
+R6
+DEx4 work 5 adder 0 22 6;5`gP1THb37_dSh_MEJV3
+l57
+L17
+VU7>bQfl>oKnl9[CefZV0L0
+!s100 lH^JE9k<K4jF`ehhc>ieP3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Eadder_test_bench
+Z17 w1446063178
+Z18 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z19 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z20 DPx4 work 7 p1_pack 0 22 =g<;_f[^LbTJ;>zm7X;MI2
+R5
+R6
+R7
+Z21 8E:/ECEC302/Projects/modelsim adder/testbench.vhd
+Z22 FE:/ECEC302/Projects/modelsim adder/testbench.vhd
+l0
+L4
+V8CF1BlVY:;mzIkDlb7Lcl1
+!s100 A8me@BA=R4n02>LNK:CgF3
+R10
+32
+R11
+!i10b 1
+R12
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|E:/ECEC302/Projects/modelsim adder/testbench.vhd|
+Z24 !s107 E:/ECEC302/Projects/modelsim adder/testbench.vhd|
+!i113 0
+R15
+R16
+Abeh
+R18
+R19
+R20
+R5
+R6
+DEx4 work 16 adder_test_bench 0 22 8CF1BlVY:;mzIkDlb7Lcl1
+l31
+L9
+V9jhQj`kg]ajRB]L[OF^de1
+!s100 [cO95NDFlCdnb_>@GeW>M2
+R10
+32
+R11
+!i10b 1
+R12
+R23
+R24
+!i113 0
+R15
+R16
+Econtrol
+Z25 w1446065230
+R4
+R5
+R6
+R7
+Z26 8E:/ECEC302/Projects/modelsim adder/control.vhd
+Z27 FE:/ECEC302/Projects/modelsim adder/control.vhd
+l0
+L8
+VDkP^[h]?z`UjQ:iD82?:k0
+!s100 9dQ<lNgI0UTOKzg25TJQ>0
+R10
+32
+Z28 !s110 1446495170
+!i10b 1
+Z29 !s108 1446495170.000000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|E:/ECEC302/Projects/modelsim adder/control.vhd|
+Z31 !s107 E:/ECEC302/Projects/modelsim adder/control.vhd|
+!i113 0
+R15
+R16
+Abehav
+R4
+R5
+R6
+DEx4 work 7 control 0 22 DkP^[h]?z`UjQ:iD82?:k0
+l25
+L17
+VoBOkmF[i5><g:FA3G?W2:1
+!s100 ]CZE`L_Oo2VfCC2Rb=5Y[1
+R10
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R15
+R16
+Pp1_pack
+R5
+R6
+w1445891960
+R7
+8E:/ECEC302/Projects/modelsim adder/p1_pack.vhd
+FE:/ECEC302/Projects/modelsim adder/p1_pack.vhd
+l0
+L3
+V=g<;_f[^LbTJ;>zm7X;MI2
+!s100 N48dZTMe=8]boZee9P?_=2
+R10
+32
+R28
+!i10b 1
+R29
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|E:/ECEC302/Projects/modelsim adder/p1_pack.vhd|
+!s107 E:/ECEC302/Projects/modelsim adder/p1_pack.vhd|
+!i113 0
+R15
+R16
+Eserial_adder
+Z32 w1446062238
+R5
+R6
+R7
+Z33 8E:/ECEC302/Projects/modelsim adder/serial_adder.vhd
+Z34 FE:/ECEC302/Projects/modelsim adder/serial_adder.vhd
+l0
+L4
+VaEBU;A^BJ7Of^kaSET0<_0
+!s100 nKTM@X1kS8MHF^CNQYjBP0
+R10
+32
+R28
+!i10b 1
+R29
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|E:/ECEC302/Projects/modelsim adder/serial_adder.vhd|
+Z36 !s107 E:/ECEC302/Projects/modelsim adder/serial_adder.vhd|
+!i113 0
+R15
+R16
+Abeh
+R5
+R6
+DEx4 work 12 serial_adder 0 22 aEBU;A^BJ7Of^kaSET0<_0
+l17
+L13
+VYiOAZ:_J??ZYlER`W;9Kn2
+!s100 H3U[]leK[7PjN4^^[R>=R0
+R10
+32
+R28
+!i10b 1
+R29
+R35
+R36
+!i113 0
+R15
+R16
+Esh_reg
+Z37 w1445892158
+R20
+R5
+R6
+R7
+Z38 8E:/ECEC302/Projects/modelsim adder/sh_reg.vhd
+Z39 FE:/ECEC302/Projects/modelsim adder/sh_reg.vhd
+l0
+L5
+VP59z<cWB@5Ojz`1XJ]4Bg0
+!s100 S[J=>4OQaFSRB;GkgT@P32
+R10
+32
+Z40 !s110 1446495171
+!i10b 1
+Z41 !s108 1446495171.000000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|E:/ECEC302/Projects/modelsim adder/sh_reg.vhd|
+Z43 !s107 E:/ECEC302/Projects/modelsim adder/sh_reg.vhd|
+!i113 0
+R15
+R16
+Abehav
+R20
+R5
+R6
+DEx4 work 6 sh_reg 0 22 P59z<cWB@5Ojz`1XJ]4Bg0
+l17
+L15
+V^`DH:WeQ<fJ94m_dNMkn?2
+!s100 M7QMADJbOUBY22IBegNVA2
+R10
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 0
+R15
+R16

@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Nov 11 15:58:29 2015
+# Process ID: 716
+# Log file: E:/ECEC302/Projects/ANDGATEA/ANDGATEA.runs/synth_1/ANDIMP.vds
+# Journal file: E:/ECEC302/Projects/ANDGATEA/ANDGATEA.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ANDIMP.tcl -notrace
+Command: synth_design -top ANDIMP -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 267.809 ; gain = 86.375
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-2715] syntax error near a1 [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:24]
+WARNING: [Synth 8-1090] 'and1' is not compiled in library work [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:32]
+ERROR: [Synth 8-1031] a1 is not declared [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:32]
+WARNING: [Synth 8-1090] 'and1' is not compiled in library work [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:33]
+ERROR: [Synth 8-1031] a1 is not declared [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:33]
+WARNING: [Synth 8-1090] 'and1' is not compiled in library work [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:34]
+ERROR: [Synth 8-1031] a1 is not declared [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:34]
+WARNING: [Synth 8-1090] 'and1' is not compiled in library work [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:35]
+ERROR: [Synth 8-1031] a1 is not declared [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:35]
+WARNING: [Synth 8-1090] 'and1' is not compiled in library work [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:37]
+ERROR: [Synth 8-1031] a1 is not declared [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:37]
+WARNING: [Synth 8-1090] 'and1' is not compiled in library work [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:38]
+ERROR: [Synth 8-1031] a1 is not declared [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:38]
+WARNING: [Synth 8-1090] 'and1' is not compiled in library work [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:39]
+ERROR: [Synth 8-1031] a1 is not declared [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:39]
+WARNING: [Synth 8-1090] 'and1' is not compiled in library work [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:40]
+ERROR: [Synth 8-1031] a1 is not declared [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:40]
+WARNING: [Synth 8-1090] 'and1' is not compiled in library work [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:43]
+ERROR: [Synth 8-1031] a1 is not declared [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:43]
+ERROR: [Synth 8-1031] a1 is not declared [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:43]
+ERROR: [Synth 8-1031] b1 is not declared [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:43]
+WARNING: [Synth 8-1090] 'and1' is not compiled in library work [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:44]
+ERROR: [Synth 8-1031] a1 is not declared [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:44]
+ERROR: [Synth 8-1031] a1 is not declared [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:44]
+ERROR: [Synth 8-1031] b1 is not declared [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:44]
+WARNING: [Synth 8-1090] 'and1' is not compiled in library work [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:46]
+ERROR: [Synth 8-1031] a1 is not declared [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:46]
+ERROR: [Synth 8-1031] a1 is not declared [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:46]
+ERROR: [Synth 8-1031] b1 is not declared [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:46]
+WARNING: [Synth 8-1090] 'and1' is not compiled in library work [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:47]
+ERROR: [Synth 8-1031] a1 is not declared [E:/ECEC302/Projects/ANDGATEA/ANDGATEA.srcs/sources_1/new/ANDIMP.vhd:47]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 302.000 ; gain = 120.566
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+2 Infos, 12 Warnings, 0 Critical Warnings and 20 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 11 15:58:35 2015...

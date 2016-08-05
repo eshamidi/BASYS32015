@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Mon Oct 19 14:01:50 2015
+# Process ID: 968
+# Log file: C:/Users/egh35/Downloads/ECEC302 monday/ECEC302/ECEC302/mux_problem2/vivado.log
+# Journal file: C:/Users/egh35/Downloads/ECEC302 monday/ECEC302/ECEC302/mux_problem2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\egh35\Downloads\ECEC302 monday\ECEC302\ECEC302\mux_problem2\mux_problem2.xpr}
+Scanning sources...
+Finished scanning sources
+ERROR: unknown error occurred
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 19 14:02:23 2015...

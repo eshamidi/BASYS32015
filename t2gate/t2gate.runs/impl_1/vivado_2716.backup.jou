@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Oct 21 16:46:23 2015
+# Process ID: 2632
+# Log file: E:/ECEC302/Projects/t2gate/t2gate.runs/impl_1/t2g.vdi
+# Journal file: E:/ECEC302/Projects/t2gate/t2gate.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source t2g.tcl -notrace

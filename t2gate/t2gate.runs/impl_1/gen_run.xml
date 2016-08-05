@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1445461117">
+  <File Type="OPT-DCP" Name="t2g_opt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="PWROPT-DCP" Name="t2g_pwropt.dcp"/>
+  <File Type="ROUTE-DCP" Name="t2g_routed.dcp"/>
+  <File Type="PA-TCL" Name="t2g.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="t2g_drc_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="t2g_drc_pwropted.rpt"/>
+  <File Type="OPT-HWDEF" Name="t2g.hwdef"/>
+  <File Type="PLACE-DCP" Name="t2g_placed.dcp"/>
+  <File Type="PLACE-IO" Name="t2g_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="t2g_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="t2g_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="t2g_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="t2g_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="t2g_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="t2g_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="t2g_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="t2g_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="t2g.vdi"/>
+  <File Type="PHYSOPT-DRC" Name="t2g_drc_physopted.rpt"/>
+  <File Type="ROUTE-DRC" Name="t2g_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="t2g_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="t2g_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="t2g_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="t2g_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="t2g_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="t2g_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="t2g_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="t2g_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="t2g_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="t2g_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="t2g_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="t2g_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="t2g_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="t2g_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="t2g.bit"/>
+  <File Type="BG-BIN" Name="t2g.bin"/>
+  <File Type="BITSTR-MSK" Name="t2g.msk"/>
+  <File Type="BITSTR-RBT" Name="t2g.rbt"/>
+  <File Type="BITSTR-NKY" Name="t2g.nky"/>
+  <File Type="BITSTR-BMM" Name="t2g_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="t2g.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="t2g.sysdef"/>
+  <File Type="BG-BGN" Name="t2g.bgn"/>
+  <File Type="BG-DRC" Name="t2g.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/t2gate.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/t2g.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="t2g"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/cont.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015">
+      <Desc>Vivado Implementation Defaults</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

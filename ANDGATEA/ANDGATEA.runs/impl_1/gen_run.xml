@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1447275507">
+  <File Type="OPT-DCP" Name="ANDIMP_opt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="PWROPT-DCP" Name="ANDIMP_pwropt.dcp"/>
+  <File Type="ROUTE-DCP" Name="ANDIMP_routed.dcp"/>
+  <File Type="PA-TCL" Name="ANDIMP.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="ANDIMP_drc_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="ANDIMP_drc_pwropted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ANDIMP.hwdef"/>
+  <File Type="PLACE-DCP" Name="ANDIMP_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ANDIMP_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="ANDIMP_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ANDIMP_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ANDIMP_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ANDIMP_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="ANDIMP_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ANDIMP_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ANDIMP_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="ANDIMP_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="ANDIMP.vdi"/>
+  <File Type="PHYSOPT-DRC" Name="ANDIMP_drc_physopted.rpt"/>
+  <File Type="ROUTE-DRC" Name="ANDIMP_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ANDIMP_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="ANDIMP_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="ANDIMP_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="ANDIMP_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ANDIMP_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ANDIMP_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ANDIMP_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ANDIMP_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="ANDIMP_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="ANDIMP_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ANDIMP_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ANDIMP_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ANDIMP_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ANDIMP_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="ANDIMP.bit"/>
+  <File Type="BG-BIN" Name="ANDIMP.bin"/>
+  <File Type="BITSTR-MSK" Name="ANDIMP.msk"/>
+  <File Type="BITSTR-RBT" Name="ANDIMP.rbt"/>
+  <File Type="BITSTR-NKY" Name="ANDIMP.nky"/>
+  <File Type="BITSTR-BMM" Name="ANDIMP_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="ANDIMP.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="ANDIMP.sysdef"/>
+  <File Type="BG-BGN" Name="ANDIMP.bgn"/>
+  <File Type="BG-DRC" Name="ANDIMP.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/AND1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ANDIMP.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ANDIMP"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/sources_1/new/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015">
+      <Desc>Vivado Implementation Defaults</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

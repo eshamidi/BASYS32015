@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1446059078">
+  <File Type="OPT-DCP" Name="viisegii_opt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="PWROPT-DCP" Name="viisegii_pwropt.dcp"/>
+  <File Type="ROUTE-DCP" Name="viisegii_routed.dcp"/>
+  <File Type="PA-TCL" Name="viisegii.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="viisegii_drc_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="viisegii_drc_pwropted.rpt"/>
+  <File Type="OPT-HWDEF" Name="viisegii.hwdef"/>
+  <File Type="PLACE-DCP" Name="viisegii_placed.dcp"/>
+  <File Type="PLACE-IO" Name="viisegii_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="viisegii_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="viisegii_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="viisegii_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="viisegii_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="viisegii_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="viisegii_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="viisegii_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="viisegii_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="viisegii.vdi"/>
+  <File Type="PHYSOPT-DRC" Name="viisegii_drc_physopted.rpt"/>
+  <File Type="ROUTE-DRC" Name="viisegii_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="viisegii_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="viisegii_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="viisegii_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="viisegii_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="viisegii_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="viisegii_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="viisegii_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="viisegii_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="viisegii_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="viisegii_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="viisegii_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="viisegii_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="viisegii_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="viisegii_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="viisegii.bit"/>
+  <File Type="BG-BIN" Name="viisegii.bin"/>
+  <File Type="BITSTR-MSK" Name="viisegii.msk"/>
+  <File Type="BITSTR-RBT" Name="viisegii.rbt"/>
+  <File Type="BITSTR-NKY" Name="viisegii.nky"/>
+  <File Type="BITSTR-BMM" Name="viisegii_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="viisegii.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="viisegii.sysdef"/>
+  <File Type="BG-BGN" Name="viisegii.bgn"/>
+  <File Type="BG-DRC" Name="viisegii.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/viisegii.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="viisegii"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
